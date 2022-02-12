@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Multiplication</title>
+
+<!-- ==== CSS Links ==== -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+<!-- ==== Google Fonts ==== -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Titillium+Web:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- ==== ==== Header Part Starts Here ==== ==== -->
+
+<section id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="head_item text-center">
+                    <p>For-Loop Exercise: Calculator Chart</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==== ==== Header Part Ends Here ==== ==== -->
+
+<!-- ==== ==== Multi Part Starts Here ==== ==== -->
+
+<section id="multi">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="calc_item_div">
+                    <form action="#" method="POST">
+                        <div class="field mb">
+                            <div class="form_head">
+                                <p>Please Input Multiplication Table Range * <span style="color: red; font-weight: 400;">(Must Contain Ascending Integer Numbers)</span></p>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <p class="inp ml">From</p>
+                            <input type="text" placeholder="Start Number" id="fnum">
+                            <p class="inp">To</p>
+                            <input type="text" placeholder="End Number" id="lnum">
+                            <p class="inp">for Multiplication Table</p>
+                        </div>
+                        <div class="field">
+                            <p class="inp ml">From</p>
+                            <input type="text" placeholder="Starting *th" id="fth">
+                            <p class="inp">*th time Multiplier to</p>
+                            <input type="text" placeholder="Ending *th" id="lth">
+                            <p class="inp">*th times</p>
+                        </div>
+                        <div class="field mb">
+                            <input type="button" onclick="do_math()" Value="Run!" class="butn">
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="result">
+                    <div class="result_head">
+                        <p>Find Your Result *</p>
+                    </div>
+                    <div class="result_core">
+                        <p class="res" id="demo"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==== ==== Multi Part Ends Here ==== ==== -->
+
+<!-- ==== javascript ==== -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>

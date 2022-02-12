@@ -1,0 +1,127 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+/* === === X-sm Header Start === ==== */
+
+.head_item p {
+    font-size: 25px;
+    padding: 20px 0;
+    line-height: 35px;
+}
+
+/* === === X-sm Multi Start === ==== */
+
+#multi {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.calc_item_div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form_head p {
+    padding-bottom: 5px;
+    padding-left: 0;
+    line-height: 20px;
+}
+
+.field input {
+    display: block;
+    margin: 0 auto;
+}
+
+.result {
+    padding: 40px 50px 70px 50px;
+}
+
+/* ==== X-sm END ==== */
+    
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+/* === === SM Header Start === ==== */
+
+.head_item p {
+    font-size: 25px;
+    padding: 20px 0;
+    line-height: 35px;
+}
+
+/* === === SM Multi Start === ==== */
+
+#multi {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.calc_item_div {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form_head p {
+    padding-left: 0;
+    line-height: 20px;
+}
+
+.field input.butn {
+    margin: 0 auto;
+}
+    
+/* ==== SM END ==== */
+    
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== *
+/* === === MD Multi Start === ==== */
+
+#multi {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.calc_item_div {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.field input.butn {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+    
+/* ==== MD END ==== */
+    
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Common Start === ==== */
+/* === === LG Header Start === ==== */
+
+#multi {
+    padding-bottom: 150px;
+}
+    
+/* ==== LG END ==== */
+    
+}

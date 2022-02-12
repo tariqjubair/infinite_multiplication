@@ -1,0 +1,176 @@
+
+/* ==== ==== All Common CSS Start ==== ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.body {
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* ==== ==== All Common CSS End ==== ==== */
+
+/* ==== ==== Header part Starts Here  ==== ==== */
+
+#header {
+    background: #3ab814;
+}
+
+.head_item p {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+/* ==== ==== Header part Ends Here  ==== ==== */
+
+/* ==== ==== Multi part Starts Here  ==== ==== */
+
+#multi {
+    background-image: url(../images/back22.jpg);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    padding-top: 70px;
+    padding-bottom: 220px;
+}
+
+.calc_item_div {
+    padding: 40px 25px 25px 25px;
+    /* width: 520px; */
+    border: 1px solid #851212;
+    background: rgba(253, 251, 250, 0.8);
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.form_head p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field input {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #c2c0c0;
+    background: #f5f8ff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.field input::placeholder {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: #d38b8b;
+}
+
+p.inp {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.field input.butn {
+    width: 100px;
+    background: #851212;
+    border: 1px solid #250912;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin-top: 30px;
+    display: block;
+    padding-left: 0;
+}
+
+.field input.butn:hover {
+    background: #ec0053;
+}
+
+.result {
+    padding: 40px 50px 150px 50px;
+    /* width: 70%; */
+    border: 1px solid #851212;
+    background: rgba(253, 251, 250, 0.8);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.result_head p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+p.res {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#demo {
+    width: 100%;
+}
+
+
+
+
+/* ==== ==== Multi part Ends Here  ==== ==== */
